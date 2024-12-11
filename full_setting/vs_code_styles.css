@@ -1,0 +1,95 @@
+/* Collapse or hide the group header when no tabs are enabled */
+/*.monaco-workbench .editor-group-header-no-tabs {*/
+/*  height: 0 !important;*/
+/*  padding: 0 !important;*/
+/*  margin: 0 !important;*/
+/*}*/
+
+.titlebar-container {
+  display: none !important;
+  height: 0px;
+}
+/**/
+/*.workbench.parts.titlebar {*/
+/*	height: 0px;*/
+/*	display: none !important;*/
+/*}*/
+/* Hide the actions container list */
+/*.actions-container {*/
+/*  display: none !important;*/
+/*}*/
+.title.title-border-bottom {
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  z-index: 10;
+}
+.action-label.codicon.codicon-split-horizontal {
+	display: none;
+}
+
+.action-label.codicon.codicon-close {
+	display: none;
+}
+.action-label.codicon.codicon-toolbar-more {
+	display: none;
+}
+
+.letterpress {
+	display: none;
+}
+/* Move the title label (with class monaco-icon-label) to the bottom of the VS Code window */
+/*.monaco-icon-label.single-tab.title-label {*/
+/*  z-index: 10; /* Make sure it's above other elements */*/
+/*  text-align: center; /* Optional: Adjust text alignment if needed */*/
+/*}*/
+
+/* Optional: Adjust the layout of the container to give space for the label at the bottom */
+.monaco-workbench {
+  padding-bottom: 40px; /* Adjust based on the height you need for the label */
+}
+.monaco-editor .margin .line-numbers {
+  padding-left: 10px !important;  /* Adds padding to the left of line numbers */
+  }
+
+/* make dropdown at middle*/
+.quick-input-filter .monaco-inputbox {
+	border-radius: 12px !important;
+	padding: 8px !important; border: none ! important; background-color: gba (34, 34, 34,
+	40) !important;
+	font-family: "Fira Code", monospace !important;
+	font-size: 14px ! important;
+	margin-bottom: 16px ! important;
+}
+
+.quick-input-widget {
+	transform: translateY(-50%) ! important;
+	top: 50% ! important;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 45) ! important; padding: 10px 10px 18px 10px ! important; background-image: linear-gradient (#3c3c50 0%,
+	#2a2b38 100%) !important;
+	backdrop-filter: blur(3px) ! important; border-radius: 20px !important;
+}
+
+/* Initial state of the sidebar */
+/*.part.sidebar.left.pane-composite-part {*/
+/*	transform: translateX(-50%) ! important;*/
+/*	top: 50% ! important;*/
+/*	/*box-shadow: 0px 8px 20px rgba(0, 0, 0, 45) ! important; padding: 10px 10px 18px 10px ! important; background-image: linear-gradient (#3c3c50 0%,*/*/
+/*	/*#2a2b38 100%) !important;*/*/
+/*	backdrop-filter: blur(3px) ! important; border-radius: 20px !important;*/
+/*	z-index: 20;*/
+/*}*/
+/*    position: fixed;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    transform: translateX(-100%);  /* Initially, it's hidden off-screen */*/
+/*    transition: transform 0.3s ease-in-out;  /* Smooth transition for the fold effect */*/
+/*    width: 250px;  /* Adjust to the width of your sidebar */*/
+/*    height: 100%;*/
+/*    background-color: #333;  /* Your sidebar's background */*/
+/*    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);*/
+/*}*/
+
+/* When the sidebar is toggled to open */

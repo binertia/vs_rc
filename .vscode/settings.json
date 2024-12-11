@@ -1,0 +1,142 @@
+{
+  "workbench.colorTheme": "Tokyo Night",
+  "editor.padding.top" : 5,
+  //custom by user
+  "window.titleBarStyle": "custom",
+  "window.customTitleBarVisibility": "auto",
+  "editor.scrollbar.verticalScrollbarSize":5,
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+  "workbench.editor.showTabs": "single",
+  "workbench.colorCustomizations": {
+    "titleBar.foreground": "#20202c",
+	"titleBar.border": "#20202c",
+    "titleBar.activeForeground": "#20202c",
+    "titleBar.background": "#20202c",
+    "titleBar.activeBackground": "#20202c",
+    "sideBar.background": "#20202c",
+	"editorGroupHeader.noTabsBackground": "#20202c", // Border color for the header
+	"editorGroupHeader.border": "#20202c", // Border color for the header
+    "tab.inactiveBackground": "#20202c",
+    "tab.activeBackground": "#20202c",
+    "editorGroupHeader.tabsBackground": "#20202c",
+    "sideBarSectionHeader.background": "#20202c",
+    "sideBar.border": "#20202c",
+	"editorCursor.background": "#424242",
+	"editorCursor.foreground": "#c4bfbf",
+  	"editor.background": "#20202c",
+	"editor.wordHighlightTextBackground": "#3a4f6a",
+	"editor.selectionBackground" : "#334a7c",
+	"editorBracketMatch.background": "#565c5f",
+	"editor.foreground": "#834141",
+	"editorGutter.background": "#20202c",
+	"editorLineNumber.foreground": "#5c5c7b",
+	"editorLineNumber.activeForeground": "#c2cdef",
+	"symbolIcon.variableForeground": "#d3dfffab",
+  },"editor.tokenColorCustomizations": {
+	"comments" : "#4dcfffec",
+	"strings" : "#d6ffb1dd",
+	"variables": "#c0c3d1",
+	"keywords" : "#8fe5fdf7",
+	"functions" : "#b5c7fbe6",
+	"numbers" : "#e98f5e",
+	"types" : "#93d2f2e1",
+  },
+  "editor.renderLineHighlight": "none",
+  //end of custom
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+"eslint.validate": [
+	"typescript",
+	"typescriptreact"
+],
+  "editor.cursorBlinking": "solid",
+  
+  "editor.bracketPairColorization.enabled": true,
+  "editor.matchBrackets": "near",
+//   "editor.guides.bracketPairs": "active",
+  "editor.guides.indentation": false,
+  "terminal.integrated.gpuAcceleration": "on",
+  "editor.fontFamily": "Fira Code NF",
+  "terminal.integrated.fontFamily": "Fira Code NF",
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.letterSpacing": 2,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": false,
+  "editor.fontWeight": 500,
+  "editor.tabSize": 4,
+  "editor.fontSize": 14.4,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.7,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.suggest.showIcons": false,
+  "workbench.editor.showIcons": false,
+  "editor.glyphMargin": false,
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  //stop auto fill after alphabet
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "cSpell.userWords": ["immer", "rootlayout"],
+  "editor.acceptSuggestionOnEnter": "off",
+"explorer.openEditors.visible": 1,
+"workbench.startupEditor": "none",
+  "C_Cpp.autocomplete": "disabled",
+  "cSpell.showCommandsInEditorContextMenu": false,
+  "cSpell.showStatus": false,
+"editor.detectIndentation": false,
+"editor.insertSpaces": false,
+"workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+"workbench.tips.enabled": false,
+"window.zoomLevel": 0,
+"terminal.integrated.fontSize": 14,
+"terminal.integrated.lineHeight": 1.4,
+"vim.neovimConfigPath": "~/.config/nvim/init.lua",
+"vim.neovimPath": "~/.config/nvim/init.lua",
+"vim.neovimUseConfigFile": true,
+"vim.enableNeovim": true,
+"terminal.integrated.defaultLocation": "editor",
+"editor.semanticTokenColorCustomizations": {},
+//"editor.tokenColorCustomizations": {},
+"workbench.preferredHighContrastLightColorTheme": "Dainty – Panda Theme (chroma 0, lightness 0)",
+"workbench.preferredHighContrastColorTheme": "Tokyo Night Ported Nvim",
+"window.autoDetectHighContrast": false,
+"workbench.activityBar.location": "hidden",
+"workbench.editor.tabActionCloseVisibility": false,
+"editor.accessibilitySupport": "on",
+"workbench.editor.empty.hint": "hidden",
+"accessibility.signalOptions.volume": 0,
+"vscode_custom_css.imports": [
+	"file:///Users/b.inetia/.config/vscode/vs_code_styles.css"
+],
+"background.windowBackgrounds": [
+	"/Users/b.inetia/Documents/desktop_wpp/peakpxblur.jpg"
+],
+"background.backgroundOpacity": [
+	0.12,
+	0.1,
+	0.1,
+	0.1
+],
+"background.backgroundBlur": [
+	"0",
+	"0",
+	"0",
+	"0"
+],
+"background.backgroundAlignment": [
+	"Top Left",
+	"Center Center",
+	"Center Center",
+	"Center Center"
+],
+"editor.inlayHints.fontSize": 14,
+"search.mode": "reuseEditor",
+}
